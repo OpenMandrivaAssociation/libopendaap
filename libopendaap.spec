@@ -1,6 +1,6 @@
 %define name	libopendaap
 %define version	0.4.0
-%define release 1mdk
+%define release  %mkrel 1
 
 %define major	0
 %define libname %mklibname opendaap %major
