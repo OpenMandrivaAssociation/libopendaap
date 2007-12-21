@@ -14,6 +14,7 @@ Source:		http://crazney.net/programs/itunes/files/%{name}-%{version}.tar.bz2
 URL:		http://crazney.net/programs/itunes/libopendaap.html
 License:	BSD
 Group:		System/Libraries
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 This library enables applications to discover, and connect to, iTunes® music
