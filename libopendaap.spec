@@ -1,12 +1,12 @@
 %define name	libopendaap
 %define version	0.4.0
-%define release  %mkrel 3
+%define release  %mkrel 4
 
 %define major	0
 %define libname %mklibname opendaap %major
 
 Name: 	 	%{name}
-Summary: 	Library to interface with iTunes® music
+Summary: 	Library to interface with iTunesÂ® music
 Version: 	%{version}
 Release: 	%{release}
 
@@ -17,7 +17,7 @@ Group:		System/Libraries
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
-This library enables applications to discover, and connect to, iTunes® music
+This library enables applications to discover, and connect to, iTunesÂ® music
 shares.  Unlike all other daap implementations, this library is able to
 connect to recent iTunes shares which require a special authentication
 algorithm.
