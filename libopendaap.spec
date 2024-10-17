@@ -8,7 +8,7 @@ Version: 	0.4.0
 Release: 	7
 License:	BSD
 Group:		System/Libraries
-URL:		http://crazney.net/programs/itunes/libopendaap.html
+URL:		https://crazney.net/programs/itunes/libopendaap.html
 Source0:	http://crazney.net/programs/itunes/files/%{name}-%{version}.tar.bz2
 
 %description
