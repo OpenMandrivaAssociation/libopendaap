@@ -11,6 +11,11 @@ Group:		System/Libraries
 URL:		https://crazney.net/programs/itunes/libopendaap.html
 Source0:	http://crazney.net/programs/itunes/files/%{name}-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 This library enables applications to discover, and connect to, iTunes® music
 shares.  Unlike all other daap implementations, this library is able to
